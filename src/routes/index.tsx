@@ -1,26 +1,48 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { HeroSection } from "@/components/home/HeroSection";
+import { MarqueeStrip } from "@/components/home/MarqueeStrip";
+import { ServicesSection } from "@/components/home/ServicesSection";
+import { AboutSection } from "@/components/home/AboutSection";
+import { StatsSection } from "@/components/home/StatsSection";
+import { ClientsMarquee } from "@/components/home/ClientsMarquee";
+import { SmartDevSection } from "@/components/home/SmartDevSection";
+import { PortfolioSection } from "@/components/home/PortfolioSection";
+import { CasesSection } from "@/components/home/CasesSection";
+import { ReviewsSection } from "@/components/home/ReviewsSection";
 
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "Awsmd — Creative Design and Development Agency" },
+      {
+        name: "description",
+        content:
+          "We create awesome design. Memorable websites, digital experiences, and native apps for ambitious teams.",
+      },
+      { property: "og:title", content: "Awsmd — We create awesome design" },
+      {
+        property: "og:description",
+        content: "Memorable websites, digital experiences, and native apps for ambitious teams.",
+      },
+    ],
+  }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. For sites with multiple pages (About, Services, Contact, etc.),
-// create separate route files (about.tsx, services.tsx, contact.tsx) — don't put all pages in this file.
-function PlaceholderIndex() {
-  return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
-  );
-}
-
 function Index() {
-  return <PlaceholderIndex />;
+  return (
+    <>
+      <HeroSection />
+      <MarqueeStrip />
+      <ServicesSection />
+      <AboutSection />
+      <StatsSection />
+      <ClientsMarquee />
+      <MarqueeStrip dark />
+      <SmartDevSection />
+      <PortfolioSection />
+      <CasesSection />
+      <ReviewsSection />
+    </>
+  );
 }
