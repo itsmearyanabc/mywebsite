@@ -6,13 +6,13 @@ import { SmartDevSection } from "@/components/home/SmartDevSection";
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Services — Awsmd" },
+      { title: "Services — ARMEDIAS" },
       {
         name: "description",
         content:
-          "Mobile development, web development, and design solutions. The full spectrum of what Awsmd builds.",
+          "Mobile development, web development, and design solutions. The full spectrum of what ARMEDIAS builds.",
       },
-      { property: "og:title", content: "Services — Awsmd" },
+      { property: "og:title", content: "Services — ARMEDIAS" },
       {
         property: "og:description",
         content: "Mobile development, web development, and design solutions.",
@@ -46,3 +46,4 @@ function ServicesPage() {
     </>
   );
 }
+

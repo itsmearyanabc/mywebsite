@@ -5,16 +5,16 @@ import { CasesSection } from "@/components/home/CasesSection";
 export const Route = createFileRoute("/cases")({
   head: () => ({
     meta: [
-      { title: "Cases — Awsmd" },
+      { title: "Cases — ARMEDIAS" },
       {
         name: "description",
         content:
-          "Selected work from Awsmd. Fintech, ecommerce, NFT marketplaces, AI tools, and more.",
+          "Selected work from ARMEDIAS. Fintech, ecommerce, NFT marketplaces, AI tools, and more.",
       },
-      { property: "og:title", content: "Cases — Awsmd" },
+      { property: "og:title", content: "Cases — ARMEDIAS" },
       {
         property: "og:description",
-        content: "Selected work from Awsmd across fintech, ecommerce, AI, and more.",
+        content: "Selected work from ARMEDIAS across fintech, ecommerce, AI, and more.",
       },
     ],
   }),
@@ -44,3 +44,4 @@ function CasesPage() {
     </>
   );
 }
+

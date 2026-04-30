@@ -35,10 +35,8 @@ export function Header() {
             className="flex items-center gap-2 text-foreground"
             data-cursor="hover"
           >
-            <div className="flex h-9 w-9 items-center justify-center rounded-full bg-foreground text-background">
-              <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2.5">
-                <path d="M4 20L12 4L20 20M7 14H17" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
+            <div className="flex items-center justify-center bg-transparent">
+              <img src="/logo.png" alt="ARMEDIAS Logo" className="h-14 object-contain mix-blend-multiply" />
             </div>
             <span className="font-display text-lg font-semibold tracking-tight">
               {siteMeta.name}

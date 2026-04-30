@@ -1,14 +1,15 @@
 // All site copy & imagery in one place. Swap freely with real content.
 
 export const siteMeta = {
-  name: "Awsmd",
-  tagline: "Creative Design and Development Agency",
-  url: "https://awsmd.example",
+  name: "ARMEDIAS",
+  tagline: "An IT solution company providing all tech solution services like automations, app dev, web dev, etc.",
+  url: "https://armedias.com",
   ctaPrimary: "Become a Client",
 };
 
 export const navLinks = [
   { to: "/about", label: "About Us" },
+  { to: "/products", label: "Products" },
   { to: "/cases", label: "Cases" },
   { to: "/reviews", label: "Reviews" },
   { to: "/contact", label: "Contact Us" },
@@ -17,6 +18,7 @@ export const navLinks = [
 export const sideNavLinks = [
   { to: "/", label: "Home" },
   { to: "/services", label: "Our Services" },
+  { to: "/products", label: "Products" },
   { to: "/about", label: "About Us" },
   { to: "/cases", label: "Portfolio" },
   { to: "/reviews", label: "Reviews" },
@@ -143,14 +145,14 @@ export const cases = [
 export const reviews = [
   {
     quote:
-      "Awsmd is a hands-on team with applicable advice beyond design. They focus on the end-user and help improve retention. They excel in user experience and big-picture thinking.",
+      "ARMEDIAS is a hands-on team with applicable advice beyond design. They focus on the end-user and help improve retention. They excel in user experience and big-picture thinking.",
     name: "Lexie Ernst",
     role: "CEO",
     avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80",
   },
   {
     quote:
-      "Since launching the website, we've gained around 10,000 subscribers. Awsmd created an appealing and bold design we love. The team manages the project well and delivers on time.",
+      "Since launching the website, we've gained around 10,000 subscribers. ARMEDIAS created an appealing and bold design we love. The team manages the project well and delivers on time.",
     name: "Lucas Rossi",
     role: "CEO",
     avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80",
@@ -164,7 +166,7 @@ export const reviews = [
   },
   {
     quote:
-      "The new website increased traffic by 35% and brought in more leads. The Awsmd team consistently met deadlines and communicated well, setting them apart from other agencies.",
+      "The new website increased traffic by 35% and brought in more leads. The ARMEDIAS team consistently met deadlines and communicated well, setting them apart from other agencies.",
     name: "Cindy Vincent",
     role: "Marketing Lead",
     avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80",

@@ -6,13 +6,13 @@ import { ArrowUpRight, Check } from "lucide-react";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — Awsmd" },
+      { title: "Contact — ARMEDIAS" },
       {
         name: "description",
         content:
           "Become a client. Tell us about your project and we'll get back to you within one business day.",
       },
-      { property: "og:title", content: "Contact — Awsmd" },
+      { property: "og:title", content: "Contact — ARMEDIAS" },
       {
         property: "og:description",
         content: "Tell us about your project and we'll get back to you within one business day.",
@@ -48,13 +48,13 @@ function ContactPage() {
           <div className="mt-12 space-y-3 text-sm">
             <div>
               <div className="text-xs uppercase tracking-widest text-muted-foreground">Email</div>
-              <a href="mailto:hello@awsmd.example" className="font-display text-2xl">
-                hello@awsmd.example
+              <a href="mailto:info@armedias.com" className="font-display text-2xl">
+                info@armedias.com
               </a>
             </div>
             <div>
               <div className="text-xs uppercase tracking-widest text-muted-foreground">Phone</div>
-              <div className="font-display text-2xl">+1 (555) 010-9020</div>
+              <div className="font-display text-2xl">+91 7701897557</div>
             </div>
           </div>
         </div>
@@ -147,3 +147,4 @@ function Field({
     </div>
   );
 }
+

@@ -5,13 +5,13 @@ import { ClientsMarquee } from "@/components/home/ClientsMarquee";
 export const Route = createFileRoute("/reviews")({
   head: () => ({
     meta: [
-      { title: "Reviews — Awsmd" },
+      { title: "Reviews — ARMEDIAS" },
       {
         name: "description",
         content:
-          "What our clients say about working with Awsmd. 4.9 stars across 40+ verified reviews.",
+          "What our clients say about working with ARMEDIAS. 4.9 stars across 40+ verified reviews.",
       },
-      { property: "og:title", content: "Reviews — Awsmd" },
+      { property: "og:title", content: "Reviews — ARMEDIAS" },
       {
         property: "og:description",
         content: "4.9 stars across 40+ verified client reviews.",
@@ -44,3 +44,4 @@ function ReviewsPage() {
     </>
   );
 }
+

@@ -13,13 +13,13 @@ import { ReviewsSection } from "@/components/home/ReviewsSection";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Awsmd — Creative Design and Development Agency" },
+      { title: "ARMEDIAS — Creative Design and Development Agency" },
       {
         name: "description",
         content:
           "We create awesome design. Memorable websites, digital experiences, and native apps for ambitious teams.",
       },
-      { property: "og:title", content: "Awsmd — We create awesome design" },
+      { property: "og:title", content: "ARMEDIAS — We create awesome design" },
       {
         property: "og:description",
         content: "Memorable websites, digital experiences, and native apps for ambitious teams.",
@@ -46,3 +46,4 @@ function Index() {
     </>
   );
 }
+

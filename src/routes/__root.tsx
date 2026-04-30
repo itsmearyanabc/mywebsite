@@ -34,13 +34,13 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Awsmd — Creative Design and Development Agency" },
+      { title: "ARMEDIAS — Creative Design and Development Agency" },
       {
         name: "description",
         content:
-          "We create awesome design. Awsmd is a creative agency building memorable websites, digital experiences, and native apps.",
+          "We create awesome design. ARMEDIAS is a creative agency building memorable websites, digital experiences, and native apps.",
       },
-      { property: "og:title", content: "Awsmd — Creative Design and Development Agency" },
+      { property: "og:title", content: "ARMEDIAS — Creative Design and Development Agency" },
       {
         property: "og:description",
         content: "Memorable websites, digital experiences, and native apps.",
@@ -92,3 +92,4 @@ function RootComponent() {
     </div>
   );
 }
+

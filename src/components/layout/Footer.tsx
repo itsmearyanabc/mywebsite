@@ -60,9 +60,9 @@ export function Footer() {
             <div>
               <h4 className="text-xs font-medium uppercase tracking-widest text-background/50">Contact</h4>
               <ul className="mt-4 space-y-2 text-sm text-background/80">
-                <li>hello@awsmd.example</li>
-                <li>+1 (555) 010-9020</li>
-                <li>Worldwide</li>
+                <li>info@armedias.com</li>
+                <li>+91 7701897557</li>
+                <li>N-48 kirti nagar, New Delhi -110015 INDIA</li>
               </ul>
             </div>
           </div>

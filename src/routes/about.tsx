@@ -6,13 +6,13 @@ import { ClientsMarquee } from "@/components/home/ClientsMarquee";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — Awsmd" },
+      { title: "About — ARMEDIAS" },
       {
         name: "description",
         content:
-          "We're a tight-knit team of designers and engineers obsessed with shipping work that lasts. Get to know Awsmd.",
+          "We're a tight-knit team of designers and engineers obsessed with shipping work that lasts. Get to know ARMEDIAS.",
       },
-      { property: "og:title", content: "About — Awsmd" },
+      { property: "og:title", content: "About — ARMEDIAS" },
       {
         property: "og:description",
         content: "Designers and engineers obsessed with shipping work that lasts.",
@@ -36,7 +36,7 @@ function AboutPage() {
           >
             We are
             <br />
-            <span className="italic font-light">Awsmd</span>
+            <span className="italic font-light">ARMEDIAS</span>
           </h1>
           <p className="mt-8 max-w-xl text-lg text-foreground/70">
             A tight-knit collective of designers, engineers, and strategists. We've spent the
@@ -50,3 +50,4 @@ function AboutPage() {
     </>
   );
 }
+
